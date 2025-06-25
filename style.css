@@ -629,6 +629,17 @@ footer a.whatsapp:hover {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .container {
+    padding-top: 100px; /* for taller mobile navbar */
+  }
+}
+main.container {
+  padding-top: 80px;
+}.container {
+  padding-top: 80px; /* adjust this to navbar height + some space */
+}
+
 
 
 
